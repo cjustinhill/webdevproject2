@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: whitesmoke;
+}
+li {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+}
+.bold {
+    font-weight: bold;
+}
+.adiv {
+    text-align: center;
+}
+.homepg {
+    background-image: url('../assets/img/ym.jpg');
+    background-position: top right;
+    background-size: contain;
+}
+a:visited {
+    color: rgb(174, 169, 169);
+}
+a:hover {
+    font-size: 18px;
+}
+
+.box {
+    border-width: 3px;
+    border-style: solid;
+    border-color: red;
+    padding-left: 5px;
+    margin: 50px;
+}
+
+.box2{
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    margin: 20px;
+    padding: 5px;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+
+}
+
+.leftmenu{
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+}
+
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 39px;
+
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 15px;
+    text-align: center;
+    position: fixed;
+    background-color: gray;
+    color: black;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.centeryt {
+    width: 500px;
+    height: 281px;
+
+    position: relative;
+    top: 0; right: 0; 
+    bottom: 0; left: 0;
+    margin: auto;
+}
